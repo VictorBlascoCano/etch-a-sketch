@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	min-height: 100dvh;
+	background-color: black;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+hgroup {
+	text-align: center;
+}
+
+.box-container {
+	display: flex;
+	width: 800px;
+	height: 800px;
+	border: 1px solid white;
+	margin: 20px 0;
+	flex-wrap: wrap;
+}
+
+.box {
+	border: 1px solid red;
+	flex: 1 0 calc(100% / 16);
+	aspect-ratio: 1 / 1;
+}
+
+.size-form {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.hovered {
+	background-color: white;
+}
+
+.title {
+	font-size: 3em;
+	margin-bottom: 10px;
+}
+
+.input-field {
+	margin: 20px 0;
+	height: 30px;
+	width: 50px;
+}

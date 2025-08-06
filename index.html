@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Etch-A-Sketch</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="script.js" defer></script>
+	</head>
+	<body>
+		<header>
+			<hgroup>
+				<h1 class="title">Etch A Sketch</h1>
+				<p class="description">Hover over the grid! :)</p>
+			</hgroup>
+		</header>
+		<main>
+			<section class="input-container">
+				<form class="size-form">
+					<input
+						class="input-field"
+						type="number"
+						min="1"
+						max="100"
+						value="16"
+					/>
+					<button type="submit">Change dimension</button>
+				</form>
+			</section>
+			<section class="box-container"></section>
+		</main>
+		<footer>
+			<p>Made by Victor Blasco Cano</p>
+		</footer>
+	</body>
+</html>
