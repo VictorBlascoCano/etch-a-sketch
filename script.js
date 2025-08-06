@@ -1,6 +1,6 @@
 const boxContainer = document.querySelector(".box-container");
 const NUMBER_SIZE_CELLS = 16;
-let sign = prompt("What's your sign?");
+
 createBoard(NUMBER_SIZE_CELLS);
 
 const form = document.querySelector("form");
